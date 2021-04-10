@@ -8,3 +8,9 @@ chinese_zodiac = '猴鸡狗猪鼠牛虎兔龙蛇马羊'  #取余不是从鼠开�
 year = 2018
 print(year%12)
 print(chinese_zodiac[year%12])
+
+print('狗' not in chinese_zodiac)
+
+print(chinese_zodiac + 'abcd')
+
+print(chinese_zodiac * 3)
