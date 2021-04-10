@@ -13,11 +13,11 @@
 # #list(filter(lambda x:x < b,a))
 # #len(list(filter(lambda x:x < b,a)))
 
-a_list = ['abc','xyz']
-a_list.append('x')
-print(a_list)
-a_list.remove('xyz')
-print(a_list)
+# a_list = ['abc','xyz']
+# a_list.append('x')
+# print(a_list)
+# a_list.remove('xyz')
+# print(a_list)
 
 
 
