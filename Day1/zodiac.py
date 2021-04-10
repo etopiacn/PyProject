@@ -19,3 +19,5 @@ print(a_list)
 a_list.remove('xyz')
 print(a_list)
 
+
+
