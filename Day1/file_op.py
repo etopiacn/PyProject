@@ -20,7 +20,7 @@
 #     print('####')
 # file5.close()
 
-file6 = open('name.txt')
+file6 = open('../venv/name.txt')
 print('当前文件指针位置 %s' %file6.tell())
 print('当前读到了一个字符，字符的内容为%s' %file6.read(1))
 print('当前文件指针位置 %s' %file6.tell())

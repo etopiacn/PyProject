@@ -5,9 +5,30 @@
 #
 # d = {'a':1,'b':2}
 # print(d[c:])
-# townee = [
-#     {'海底王国':['小美人鱼''海之王''小美人鱼的祖母''五位姐姐'],'上层世界':['王子','邻国公主']},
-#     '丑小鸭','坚定的锡兵','睡美人','青蛙王子',
-#     [{'主角':'小红帽','配角1':'外婆','配角2':'猎人'},{'反面角色':'狼'}]
-#     ]
-# print(townee[5][1]['反面角色'])
+
+#year = int(input('请用户输入出生年份：'))
+
+# try:
+#     year = int(input('请用户输入出生年份：'))
+# except ValueError:
+#     print('年份要输入数字')
+# a=123
+# a.append()
+
+#except {ValueError,AttributeError,KeyError}
+# try:
+#     print(1/0)
+# except ZeroDivisionError as e:
+#     print('0不能作除数 %s ' %e)
+
+# try:
+#     raise NameError('helloError')
+# except NameError:
+#     print('my custom error')
+
+try:
+    a = open('name.txt')
+except Exception as e:
+    print(e)
+finally:
+    a.close()
